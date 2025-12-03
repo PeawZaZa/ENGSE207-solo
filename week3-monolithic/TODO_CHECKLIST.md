@@ -17,15 +17,15 @@ Print this checklist and check off each item as you complete it!
 ## 📦 SETUP (30 min)
 
 ### Environment Setup:
-- [ ] WSL2/Ubuntu installed (Windows users)
+- [x] WSL2/Ubuntu installed (Windows users)
 - [x] Node.js 20+ installed
 - [x] npm installed
 - [x] SQLite3 installed
 - [x] Git installed
-- [ ] VS Code extensions installed:
-  - [ ] Remote - WSL
-  - [ ] ESLint
-  - [ ] SQLite Viewer
+- [x] VS Code extensions installed:
+  - [x] Remote - WSL
+  - [x] ESLint
+  - [x] SQLite Viewer
   - [x] Thunder Client
 
 ### Project Setup:
@@ -65,31 +65,31 @@ Print this checklist and check off each item as you complete it!
 
 #### PUT/PATCH Endpoints:
 - [x] **Part 8:** Implemented PUT `/api/tasks/:id` (update)
-  - [ ] Builds dynamic SQL
-  - [ ] Returns updated task
-  - [ ] **Test:** Can update task fields
-- [ ] **Part 10:** Implemented PATCH `/api/tasks/:id/status`
-  - [ ] Validates status values
-  - [ ] **Test:** Can change status
-  - [ ] **Test:** Returns 400 for invalid status
+  - [x] Builds dynamic SQL
+  - [x] Returns updated task
+  - [x] **Test:** Can update task fields
+- [x] **Part 10:** Implemented PATCH `/api/tasks/:id/status`
+  - [x] Validates status values
+  - [x] **Test:** Can change status
+  - [x] **Test:** Returns 400 for invalid status
 
 #### DELETE Endpoint:
-- [ ] **Part 9:** Implemented DELETE `/api/tasks/:id`
-  - [ ] Returns appropriate messages
-  - [ ] **Test:** Can delete task
-  - [ ] **Test:** Returns 404 if task not found
+- [x] **Part 9:** Implemented DELETE `/api/tasks/:id`
+  - [x] Returns appropriate messages
+  - [x] **Test:** Can delete task
+  - [x] **Test:** Returns 404 if task not found
 
 #### Final Backend Setup:
-- [ ] **Part 11:** Added route to serve index.html
-- [ ] **Part 12:** Started server with listen()
-- [ ] **Part 13:** Added graceful shutdown (bonus)
-- [ ] **Test:** All API endpoints working correctly
+- [x] **Part 11:** Added route to serve index.html
+- [x] **Part 12:** Started server with listen()
+- [x] **Part 13:** Added graceful shutdown (bonus)
+- [x] **Test:** All API endpoints working correctly
 
 ### Backend Checkpoint ✓
-- [ ] Server runs without errors
-- [ ] All 6 API endpoints work
-- [ ] Thunder Client tests pass
-- [ ] No console errors
+- [x] Server runs without errors
+- [x] All 6 API endpoints work
+- [x] Thunder Client tests pass
+- [x] No console errors
 
 ---
 
@@ -98,168 +98,168 @@ Print this checklist and check off each item as you complete it!
 ### File: `public/app.js`
 
 #### State & DOM:
-- [ ] **Part 1:** Declared state variables (allTasks, currentFilter)
-- [ ] **Part 2:** Got all DOM element references
-  - [ ] Form element
-  - [ ] Filter select
-  - [ ] Task containers (todo, progress, done)
-  - [ ] Counter spans
+- [x] **Part 1:** Declared state variables (allTasks, currentFilter)
+- [x] **Part 2:** Got all DOM element references
+  - [x] Form element
+  - [x] Filter select
+  - [x] Task containers (todo, progress, done)
+  - [x] Counter spans
 
 #### Utility Functions:
-- [ ] **Part 11:** Implemented utility functions
-  - [ ] `escapeHtml()` - prevents XSS
-  - [ ] `formatDate()` - formats dates nicely
-  - [ ] `showLoading()` - shows overlay
-  - [ ] `hideLoading()` - hides overlay
-  - [ ] **Test:** Call functions in console
+- [x] **Part 11:** Implemented utility functions
+  - [x] `escapeHtml()` - prevents XSS
+  - [x] `formatDate()` - formats dates nicely
+  - [x] `showLoading()` - shows overlay
+  - [x] `hideLoading()` - hides overlay
+  - [x] **Test:** Call functions in console
 
 #### API Functions:
-- [ ] **Part 3:** Implemented `fetchTasks()`
-  - [ ] Fetches from `/api/tasks`
-  - [ ] Updates allTasks array
-  - [ ] Calls renderTasks()
-  - [ ] **Test:** Call in console - tasks load
+- [x] **Part 3:** Implemented `fetchTasks()`
+  - [x] Fetches from `/api/tasks`
+  - [x] Updates allTasks array
+  - [x] Calls renderTasks()
+  - [x] **Test:** Call in console - tasks load
 
-- [ ] **Part 4:** Implemented `createTask()`
-  - [ ] POSTs to `/api/tasks`
-  - [ ] Updates allTasks
-  - [ ] Resets form
-  - [ ] Shows success message
-  - [ ] **Test:** Create task manually
+- [x] **Part 4:** Implemented `createTask()`
+  - [x] POSTs to `/api/tasks`
+  - [x] Updates allTasks
+  - [x] Resets form
+  - [x] Shows success message
+  - [x] **Test:** Create task manually
 
-- [ ] **Part 5:** Implemented `updateTaskStatus()`
-  - [ ] PATCHes to `/api/tasks/:id/status`
-  - [ ] Updates local state
-  - [ ] Re-renders
-  - [ ] **Test:** Change status manually
+- [x] **Part 5:** Implemented `updateTaskStatus()`
+  - [x] PATCHes to `/api/tasks/:id/status`
+  - [x] Updates local state
+  - [x] Re-renders
+  - [x] **Test:** Change status manually
 
-- [ ] **Part 6:** Implemented `deleteTask()`
-  - [ ] Shows confirmation
-  - [ ] DELETEs from API
-  - [ ] Removes from local state
-  - [ ] **Test:** Delete manually
+- [x] **Part 6:** Implemented `deleteTask()`
+  - [x] Shows confirmation
+  - [x] DELETEs from API
+  - [x] Removes from local state
+  - [x] **Test:** Delete manually
 
 #### Render Functions:
-- [ ] **Part 7:** Implemented `renderTasks()`
-  - [ ] Clears all lists
-  - [ ] Filters tasks
-  - [ ] Separates by status
-  - [ ] Updates counters
-  - [ ] Calls renderTaskList()
+- [x] **Part 7:** Implemented `renderTasks()`
+  - [x] Clears all lists
+  - [x] Filters tasks
+  - [x] Separates by status
+  - [x] Updates counters
+  - [x] Calls renderTaskList()
 
-- [ ] **Part 8:** Implemented `renderTaskList()`
-  - [ ] Shows empty state if no tasks
-  - [ ] Loops through tasks
-  - [ ] Creates cards
+- [x] **Part 8:** Implemented `renderTaskList()`
+  - [x] Shows empty state if no tasks
+  - [x] Loops through tasks
+  - [x] Creates cards
 
-- [ ] **Part 9:** Implemented `createTaskCard()`
-  - [ ] Creates card element
-  - [ ] Sets correct HTML structure
-  - [ ] Includes all task data
-  - [ ] Has proper classes
+- [x] **Part 9:** Implemented `createTaskCard()`
+  - [x] Creates card element
+  - [x] Sets correct HTML structure
+  - [x] Includes all task data
+  - [x] Has proper classes
 
-- [ ] **Part 10:** Implemented `createStatusButtons()`
-  - [ ] Shows appropriate buttons for status
-  - [ ] Includes onclick handlers
+- [x] **Part 10:** Implemented `createStatusButtons()`
+  - [x] Shows appropriate buttons for status
+  - [x] Includes onclick handlers
 
 #### Event Listeners:
-- [ ] **Part 12:** Added form submit listener
-  - [ ] Prevents default
-  - [ ] Gets form data
-  - [ ] Validates title
-  - [ ] Calls createTask()
+- [x] **Part 12:** Added form submit listener
+  - [x] Prevents default
+  - [x] Gets form data
+  - [x] Validates title
+  - [x] Calls createTask()
 
-- [ ] **Part 12:** Added filter change listener
-  - [ ] Updates currentFilter
-  - [ ] Calls renderTasks()
+- [x] **Part 12:** Added filter change listener
+  - [x] Updates currentFilter
+  - [x] Calls renderTasks()
 
 #### Initialization:
-- [ ] **Part 13:** Added DOMContentLoaded listener
-  - [ ] Logs startup message
-  - [ ] Calls fetchTasks()
+- [x] **Part 13:** Added DOMContentLoaded listener
+  - [x] Logs startup message
+  - [x] Calls fetchTasks()
 
-- [ ] **Part 14:** Exposed global functions
-  - [ ] window.updateTaskStatus
-  - [ ] window.deleteTask
+- [x] **Part 14:** Exposed global functions
+  - [x] window.updateTaskStatus
+  - [x] window.deleteTask
 
 ### Frontend Checkpoint ✓
-- [ ] Page loads without errors
-- [ ] Tasks display correctly
-- [ ] Can create new task via form
-- [ ] Can move tasks between columns
-- [ ] Can delete tasks
-- [ ] Filter works
-- [ ] Counters update
-- [ ] No console errors
+- [x] Page loads without errors
+- [x] Tasks display correctly
+- [x] Can create new task via form
+- [x] Can move tasks between columns
+- [x] Can delete tasks
+- [x] Filter works
+- [x] Counters update
+- [x] No console errors
 
 ---
 
 ## 🧪 FULL APPLICATION TESTING (15 min)
 
 ### Functionality Tests:
-- [ ] Can view all tasks on page load
-- [ ] Tasks appear in correct columns
-- [ ] Can create task with only title
-- [ ] Can create task with description
-- [ ] Can create task with priority
-- [ ] Can move task: TODO → IN_PROGRESS
-- [ ] Can move task: IN_PROGRESS → DONE
-- [ ] Can move task backwards
-- [ ] Can delete task with confirmation
-- [ ] Filter "All Tasks" shows everything
-- [ ] Filter "To Do" shows only TODO
-- [ ] Filter "In Progress" shows only IN_PROGRESS
-- [ ] Filter "Done" shows only DONE
-- [ ] Counters update correctly
-- [ ] Priority badges show correct colors
+- [x] Can view all tasks on page load
+- [x] Tasks appear in correct columns
+- [x] Can create task with only title
+- [x] Can create task with description
+- [x] Can create task with priority
+- [x] Can move task: TODO → IN_PROGRESS
+- [x] Can move task: IN_PROGRESS → DONE
+- [x] Can move task backwards
+- [x] Can delete task with confirmation
+- [x] Filter "All Tasks" shows everything
+- [x] Filter "To Do" shows only TODO
+- [x] Filter "In Progress" shows only IN_PROGRESS
+- [x] Filter "Done" shows only DONE
+- [x] Counters update correctly
+- [x] Priority badges show correct colors
 
 ### Error Handling:
-- [ ] Empty title shows error
-- [ ] Deleted task disappears immediately
-- [ ] Network errors show alert
-- [ ] Loading overlay appears/disappears
+- [x] Empty title shows error
+- [x] Deleted task disappears immediately
+- [x] Network errors show alert
+- [x] Loading overlay appears/disappears
 
 ### UI/UX:
-- [ ] Buttons look good and work
-- [ ] Cards have hover effects
-- [ ] Page is responsive (try resizing)
-- [ ] Forms clear after submit
-- [ ] Confirmations show for delete
+- [x] Buttons look good and work
+- [x] Cards have hover effects
+- [x] Page is responsive (try resizing)
+- [x] Forms clear after submit
+- [x] Confirmations show for delete
 
 ---
 
 ## 📝 DOCUMENTATION (15 min)
 
-- [ ] Wrote README.md with:
-  - [ ] Project overview
-  - [ ] Installation steps
-  - [ ] How to run
-  - [ ] Architecture description
-  - [ ] API endpoints list
-  - [ ] Screenshots (optional)
+- [x] Wrote README.md with:
+  - [x] Project overview
+  - [x] Installation steps
+  - [x] How to run
+  - [x] Architecture description
+  - [x] API endpoints list
+  - [x] Screenshots (optional)
 
-- [ ] Answered REFLECTION.md questions:
-  - [ ] What did you learn?
-  - [ ] Main advantages of monolithic?
-  - [ ] Challenges encountered?
-  - [ ] Solutions found?
-  - [ ] When to use monolithic?
-  - [ ] What would you do differently?
+- [x] Answered REFLECTION.md questions:
+  - [x] What did you learn?
+  - [x] Main advantages of monolithic?
+  - [x] Challenges encountered?
+  - [x] Solutions found?
+  - [x] When to use monolithic?
+  - [x] What would you do differently?
 
-- [ ] Updated time tracking in reflection
+- [x] Updated time tracking in reflection
 
 ---
 
 ## 🔄 GIT VERSION CONTROL (15 min)
 
-- [ ] Initialized git: `git init`
-- [ ] Created/verified .gitignore:
-  - [ ] node_modules/ excluded
-  - [ ] *.db excluded
-  - [ ] .env excluded
+- [x] Initialized git: `git init`
+- [x] Created/verified .gitignore:
+  - [x] node_modules/ excluded
+  - [x] *.db excluded
+  - [x] .env excluded
 
-- [ ] Added files: `git add .`
-- [ ] First commit with message:
+- [x] Added files: `git add .`
+- [x] First commit with message:
   ```
   git commit -m "Week 3: Complete monolithic Task Board
 
