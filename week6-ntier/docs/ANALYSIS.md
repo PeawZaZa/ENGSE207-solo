@@ -1,4 +1,4 @@
-<img width="674" height="241" alt="image" src="https://github.com/user-attachments/assets/e6725ca7-56a1-4d3f-876d-1d07a81af615" /># 📊 ANALYSIS.md - Week 6 N-Tier Architecture Analysis
+# 📊 ANALYSIS.md - Week 6 N-Tier Architecture Analysis
 ## การวิเคราะห์และเปรียบเทียบ 4 Architectures (Week 3-6)
 
 **ชื่อ-นามสกุล:** ปวริศ คูณศรี  
@@ -388,35 +388,34 @@ Trigger/เงื่อนไข:
 ## 📸 Screenshots
 
 ### Screenshot 1: Services Status
-```
+
 <img width="674" height="241" alt="image" src="https://github.com/user-attachments/assets/999c11a1-49e6-496a-b55d-115724f6cff4" />
 
-```
+
 
 ### Screenshot 2: HTTPS in Browser
-```
+
 <img width="1917" height="1076" alt="image" src="https://github.com/user-attachments/assets/4a987c38-89e8-4ca5-9f7b-63d4bc2cee47" />
 
 
-```
+
 
 ### Screenshot 3: API Response
-```
+
 <img width="565" height="370" alt="image" src="https://github.com/user-attachments/assets/f05da317-b947-4197-a083-69ee44ac6b2e" />
 
-```
 
 ### Screenshot 4: Task Board UI Working
-```
+
 <img width="1915" height="1078" alt="image" src="https://github.com/user-attachments/assets/7883a19f-7c0f-4a35-af6a-ab27459fb99b" />
 
-```
+
 
 ### Screenshot 5: Create/Edit Task
-```
+
 <img width="1918" height="1079" alt="image" src="https://github.com/user-attachments/assets/59a9e744-7d04-4a8a-a8d1-0cf871a81ea0" />
 
-```
+
 
 ---
 
