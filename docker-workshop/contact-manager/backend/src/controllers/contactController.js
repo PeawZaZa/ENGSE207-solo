@@ -7,10 +7,6 @@
 
 const pool = require('../database/db');
 // เพิ่มที่ต้นไฟล์
-const MAX_NAME_LENGTH = 50;
-
-// ใน createContact - เพิ่ม validation ก่อน INSERT
-const trimmedName = name.trim();
 
 if (trimmedName.length > MAX_NAME_LENGTH) {
     return res.status(400).json({
@@ -30,7 +26,11 @@ exports.getAllContacts = async (req, res) => {
 exports.createContact = async (req, res) => {
     try {
         const { name, email, phone } = req.body;
-        
+        const MAX_NAME_LENGTH = 50;
+
+// ใน createContact - เพิ่ม validation ก่อน INSERT
+const trimmedName = name.trim();
+
         if (!name || name.trim() === '') {
             return res.status(400).json({ success: false, error: 'กรุณาระบุชื่อ' });
         }
