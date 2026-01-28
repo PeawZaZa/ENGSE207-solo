@@ -1,4 +1,4 @@
-cat > database/init.sql << 'EOF'
+
 -- ============================================
 -- Contact Manager Database Schema
 -- ============================================
@@ -17,4 +17,4 @@ INSERT INTO contacts (name, email, phone) VALUES
     ('สมชาย ใจดี', 'somchai@email.com', '081-234-5678'),
     ('สมหญิง รักเรียน', 'somying@email.com', '089-876-5432'),
     ('John Doe', 'john@email.com', '02-123-4567');
-EOF
+
