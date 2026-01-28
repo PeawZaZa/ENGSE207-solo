@@ -74,7 +74,13 @@ async function addContact(event) {
     const name = document.getElementById('name').value.trim();
     const email = document.getElementById('email').value.trim();
     const phone = document.getElementById('phone').value.trim();
-    
+    const MAX_NAME_LENGTH = 50;
+
+// ใน addContact - เพิ่ม validation
+    if (name.length > MAX_NAME_LENGTH) {
+        showStatus(`ชื่อต้องไม่เกิน ${MAX_NAME_LENGTH} ตัวอักษร`, 'error');
+        return;
+    }
     if (!name) {
         showStatus('กรุณาใส่ชื่อ', 'error');
         return;
