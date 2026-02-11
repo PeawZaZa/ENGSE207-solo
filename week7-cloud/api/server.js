@@ -49,7 +49,10 @@ const corsOptions = {
     credentials: true
 };
 
-app.use(cors(corsOptions));
+app.use(cors({
+    origin: '*', // อนุญาตทุกที่เพื่อเช็คว่าปัญหามาจาก CORS จริงไหม
+    credentials: true
+}));
 
 // Body parser
 app.use(express.json());
