@@ -4,7 +4,7 @@
 // ============================================
 
 // ⚠️ เปลี่ยน URL นี้เป็น API URL ของคุณบน Railway
-const API_BASE = process.env.API_BASE;
+const API_BASE = 'https://engse207-solo-production-296b.up.railway.app/api';
 
 // ตัวอย่าง:
 // const API_BASE = 'https://taskboard-api-production-abc123.up.railway.app/api';
